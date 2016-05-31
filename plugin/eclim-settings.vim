@@ -11,7 +11,7 @@ let g:EclimJavascriptValidate=0 "don't validate javascript files
 "let g:EclimSignLevel=2 "suppress warnings
 let g:EclimXmlValidate=0 "don't validate xml files
 if has("macunix") 
-  let g:EclimBrowser = 'open'
+  let g:EclimBrowser = 'chromeurl'
 endif
 
 "Java mappings:
@@ -35,6 +35,7 @@ noremap <silent> <leader>jms :JavaSet<CR>
 noremap <silent> <leader>jc :JavaConstruct<CR>
 noremap <silent> <leader>jh :JavaCallHierarchy<CR>
 noremap <silent> <leader>jd :JavaDelegate<CR>
+noremap <silent> <leader>jo :JavaCorrect<CR>
 
 "Project mappins:
 "These start with <leader>p
