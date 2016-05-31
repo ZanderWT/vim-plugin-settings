@@ -14,3 +14,7 @@ cmap gst Gstatus
 cmap gca Git cane
 "Git status
 nnoremap <silent> <leader>g :Gstatus<CR>
+"Git fixup alias from .gitconfig
+cmap gfix Git fix
+"Git rebase --interactive --autosquash
+cmap gri Git ri
